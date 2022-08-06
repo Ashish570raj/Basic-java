@@ -1,17 +1,16 @@
 import java.util.*;
-Class Area
+class Area
 {
  public static void main (String args[])
  {
   Scanner in=new Scanner(System.in);
   System.out.println("Enter three sides of triangle");
-  double a=in.nextDouble(a);
-  double b=in.nextDouble(b);
-  double c=in.nextDouble(c);
+  double a=in.nextDouble();
+  double b=in.nextDouble();
+  double c=in.nextDouble();
   double s=(a+b+c)/2.0;
-  double area=MAths.sqrt(s*(s-a)*(s-b)*(s-c));
+  double area=Math.sqrt(s*(s-a)*(s-b)*(s-c));
   
   System.out.println("Area="+area);
   }
   }
-  
