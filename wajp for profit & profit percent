@@ -1,0 +1,16 @@
+import java.util.*;
+class profit
+{
+    public static void main(String args[])
+    {
+        Scanner in=new Scanner(System.in);
+        System.out.println("Enter the value of Sp and cp");
+        double cp=in.nextDouble();
+        double sp=in.nextDouble();
+        double profit=(sp-cp);
+        double p=(profit/cp)*100.00;
+        
+        System.out.println("profit="+profit);
+        System.out.println("profit percent="+p);
+    }
+}
