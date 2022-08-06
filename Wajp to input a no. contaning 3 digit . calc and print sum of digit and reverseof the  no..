@@ -1,0 +1,24 @@
+// Wajp to input a no. contaning 3 digit . calc and print sum of digit and reverseof the  no.
+
+import java.util.*;
+class ex
+{
+    public static void main (String args[])
+    {
+        Scanner in =new Scanner(System.in);
+        System.out.println("Enter any three digit number");
+        int n=in.nextInt();
+        int a=n%100;
+        int b=n/100;
+        int c=a/10;
+        int d=a%10;
+        int s=b+c+d;
+        int rev=(b*100)+(c*10)+(d);
+        
+        
+        System.out.println("Sum="+s);
+        System.out.println("Reverse="+rev);
+    }
+    
+    
+}
