@@ -1,0 +1,21 @@
+// Wajp to input a no. contaning 2 digit . calc and print sum of digit and reverse of the  no.
+
+import java.util.*;
+class ex
+{
+    public static void main (String args[])
+    {
+        Scanner in =new Scanner(System.in);
+        System.out.println("Enter any number");
+        int n=in.nextInt();
+        int a=n%10;
+        int b=n/10;
+        int s=a+b;
+        int rev=a*10+b;
+        
+        System.out.println("Sum="+s);
+        System.out.println("Reverse="+rev);
+    }
+    
+    
+}
