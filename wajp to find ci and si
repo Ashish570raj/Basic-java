@@ -1,0 +1,19 @@
+import java.util.*;
+class simpleintresetandcompoundinterest
+{
+    public static void main (String args[])
+    {
+        Scanner in=new Scanner(System.in);
+        System.out.println("Enter the p,r and t");
+        double p=in.nextDouble();
+        double r=in.nextDouble();
+        double t=in.nextDouble();
+        
+        double SI=(p*r*t)/100.00;
+        double CI=p*Math.pow(1+r/100.00,t)-p;
+        
+        System.out.println("Simple interst="+SI);
+        System.out.println("compound interst="+CI);
+}
+    
+}
