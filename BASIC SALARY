@@ -1,0 +1,25 @@
+// Wajp to input a no. contaning 3 digit . calc and print sum of digit and reverseof the  no.
+
+import java.util.*;
+class ex
+{
+    public static void main (String args[])
+    {
+        Scanner in =new Scanner(System.in);
+        System.out.println("Enter the Basic salary");
+    double BS=in.nextDouble();                 //basic salary
+    double HRA=0.30*BS;                //home rent allowance
+    double DA =0.05*BS;                //deahrance allowance
+    double NS =(BS-HRA)+DA+HRA;                // net salary
+    double IT =0.10*NS;                //income tax
+        
+    double THS =NS-IT;                  //total home salary
+        
+        System.out.println("HRA="+HRA);
+        System.out.println("DA="+DA);
+        System.out.println("NET SALARY="+NS);
+        System.out.println("TOTAL HOME SALARYRY="+THS);
+    }
+    
+    
+}
